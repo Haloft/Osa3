@@ -1,0 +1,21 @@
+{
+  "name": "puhl_backend",
+  "version": "1.0.0",
+  "description": "Puhelinluettelo sovelluksen backend",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arto Halonen",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.1.1"
+  }
+}
