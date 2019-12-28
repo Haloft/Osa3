@@ -93,8 +93,8 @@ app.delete('/api/persons/:id', (request, response) => {
         response.status(204).end()
      
 })
-
-
+console.log("jaa")
+ 
 
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
