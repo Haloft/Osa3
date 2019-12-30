@@ -23,12 +23,12 @@ const personSchema = new mongoose.Schema({
     unique: true
   },
   number: {
-     type: String,
-     minlength: 8,
-     required: true }
+    type: String,
+    minlength: 8,
+    required: true }
 })
 
-personSchema.plugin(uniqueValidator);
+personSchema.plugin(uniqueValidator)
 
 personSchema.set('toJSON', {
   transform: (document, returnedObject) => {
